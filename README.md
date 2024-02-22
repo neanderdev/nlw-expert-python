@@ -20,9 +20,7 @@ Esta é uma API desenvolvida durante a Next Level Week (NLW) da Rocketseat, mini
 
 Use o comando abaixo para clonar o repositório:
 
-    ```bash
-    git clone https://github.com/neanderdev/nlw-expert-python.git
-    ```
+    $ git clone https://github.com/neanderdev/nlw-expert-python.git
 
 ### Criar e habilitar o virtualenv
 
@@ -30,39 +28,29 @@ Usar os comandos na raiz do projeto clonado.
 
 Criar ambiente virtual:
 
-    ```bash
-    pip install virtualenv
+    $ pip install virtualenv
 
     Windows:
-    py -m venv .venv
+    $ py -m venv .venv
 
-    Unix/macOS
-    python3 -m venv .venv
-    ```    
+    Unix/macOS:
+    $ python3 -m venv .venv  
 
 Habilitar/Ativar ambiente virtual:
 
-    ```bash
-    .\.venv\Scripts\activate.bat
-    ```
+    $ .\.venv\Scripts\activate.bat
 
 Baixar libs (ficam baixadas apenas no ambiente virtual):
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+    $ pip install -r requirements.txt
 
 Executar projeto:
 
-    ```bash
-    python run.py
-    ```    
+    $ python run.py
 
 Executar testes:
 
-    ```bash
-    pytest
-    ```
+    $ pytest
 
 ### Usando a aplicação
 
@@ -70,8 +58,6 @@ Realizar requisição POST na url *http://localhost:3000/create_tag*
 
 Body Json example:
 
-    ```bash
     {
         "product_code": "123"
     }
-    ```
